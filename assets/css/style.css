@@ -23,15 +23,16 @@
 #intro h1{
     font-size: 5em;
     font-weight: 300;
-    color: #000000;
-    text-shadow: 10px 10px 5px #52351e;
+    color: #b1b1b1;
+    text-shadow: 5px 5px 10px #52351e;
     
 }
 
 #intro h3{
     font-size: 3em;
     font-weight: 300;
-    color: #000000;
+    color: #b1b1b1;
+    text-shadow: 5px 5px 10px #52351e;
 }
 
 #page nav{
@@ -164,7 +165,7 @@ footer{
     margin-top: 2.5em;
     margin-bottom: 2.5em;
     height: 18em;
-    width: 80em;
+    width: 100em;
     background-color: #c0a886;
 }
 
@@ -220,20 +221,4 @@ body{
 .contain-2-video-1{
     width: 50%;
     display: flex;
-}
-
-@media screen and (max-width: 500px){
-    
-    
-    #intro h1{
-        font-size: 1em;
-    }
-
-    #intro h3{
-        font-size: 0,5em;
-    }
-
-    nav{
-        font-size: 0.5em;
-    }
 }

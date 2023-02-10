@@ -1,0 +1,74 @@
+@media (max-width: 800px) {
+    .contain-contact-1{
+        margin-left: 0em;
+        margin-right: 0em;
+    }
+
+    .contain-contact-1 img{
+        width: 2.5em;
+        height: 1.5em;
+    }
+    
+    .contain-1 {
+      margin-left: 0em;
+      margin-right: 0em;
+    }
+    .contain-2 {
+      margin-left: 0em;
+      margin-right: 0em;
+      display: inline;
+    }
+  
+    .under-contain {
+      margin-left: 0em;
+      margin-right: 0em;
+      display: none;
+    }
+  
+    .sub-contain-2 {
+      margin-left: 0em;
+      margin-right: 0em;
+    }
+    .sub-contain-1 {
+      margin-left: 0em;
+      margin-right: 0em;
+    }
+    .contain-1 h4 {
+      font-size: 1.2em;
+    }
+    .contain-1 h2 {
+      font-size: 1.2em;
+    }
+    .contain1-1 p {
+      font-size: 1.2em;
+    }
+    .contain-2 h2 {
+      font-size: 1.2em;
+    }
+    .contain-2 h4 {
+      font-size: 1.2em;
+    }
+    .contain-2 p {
+      font-size: 1.2em;
+    }
+    .contain-2 h3 {
+      font-size: 1.2em;
+    }
+    #page nav ul li{
+      padding: 0.5em;
+    }
+
+    #page nav ul li a {
+      font-size: 0.7em;
+    }
+  
+    #intro h1{
+      font-size: 2em;
+    }
+  
+    #intro h3{
+      font-size: 1.2em;
+    }
+  
+  }
+  
