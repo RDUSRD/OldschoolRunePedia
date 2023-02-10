@@ -1,0 +1,239 @@
+
+#page{
+    background-color:  #d8ccb4;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#intro{
+    background-image: url(../img/Old_School_RuneScape_Wiki_background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#intro h1{
+    font-size: 5em;
+    font-weight: 300;
+    color: #000000;
+    text-shadow: 10px 10px 5px #52351e;
+    
+}
+
+#intro h3{
+    font-size: 3em;
+    font-weight: 300;
+    color: #000000;
+}
+
+#page nav{
+    width: 100%;
+    font-size: 1.5em;
+    background-color: #c0a886;
+    position: sticky;
+
+}
+
+#page nav ul{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+#page nav ul li{
+    list-style: none;
+    padding: 1em;
+    border-style: hidden;
+}
+
+#page nav ul li a{
+    text-decoration: none;
+    display: table;
+    color: rgb(0, 0, 0);
+}
+
+
+#page nav ul li a:hover{
+    color: rgb(255, 255, 255);
+
+}
+
+
+.contain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin: 0;
+    padding: 0;
+    /* background-image: url(../img/main_background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.contain-1{
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    padding: 2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 5em;
+    margin-right: 5em;
+    text-align: center;
+    background-color: #c0a886 ;
+}
+
+.contain-1 h4{
+    text-align: center;
+    
+}
+
+.contain-1 h2{
+    text-align: center;
+}
+
+.contain1-1 p{
+    text-align: center;
+}
+
+.contain-2{
+    width: 100%;
+    background-color: #c0a886;
+    color: #52351e;
+    font-size: 1.2em;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 5em;
+    margin-right: 5em;
+    text-align: justify;
+    display: flex;
+}
+
+.contain-2 h2{
+    text-align: center;
+}
+
+.sub-contain-2{
+    margin-left:  7em;
+    margin-right:  7em;
+}
+
+.sub-contain-1{
+    margin-left:  20em;
+    margin-right:  20em;
+}
+
+footer{
+    width: 100%;
+    background-color: #94866d;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 0;
+    text-align: center;
+}
+
+.img-1{
+    width: 12em;
+    height: 12em;
+}
+
+.under-contain{
+    width: 100%;
+    display: flex;
+
+}
+
+.contain2-1{
+    display:flex;
+    margin-left: 6em;
+    margin-right:  6em;
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    height: 18em;
+    width: 80em;
+    background-color: #c0a886;
+}
+
+.contain2-1-img{
+    width: 100%;
+    height: 100%;
+}
+
+.contain2-1-line{
+    width: 13em;
+    height: 1px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-left: 0.5em;
+    text-align: center;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.contain-contact-1{
+    display: flex;
+    justify-content: center;
+}
+
+.contain-contact-1 img{
+    width: 4em;
+    height: 3em;
+}
+
+.img-2{
+    width: 30em;
+    height: 18em;
+}
+
+.contain-2-video{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin: 0;
+    padding: 0;
+
+}
+
+.contain-2-video-1{
+    width: 50%;
+    display: flex;
+}
+
+@media screen and (max-width: 500px){
+    
+    
+    #intro h1{
+        font-size: 1em;
+    }
+
+    #intro h3{
+        font-size: 0,5em;
+    }
+
+    nav{
+        font-size: 0.5em;
+    }
+}
